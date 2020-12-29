@@ -428,12 +428,15 @@ footer span a:hover{
         content: "\f00d";
     }
     .navbar .menu{
+
         position: fixed;
         height: 100vh;
         width: 100%;
         left: -100%;
         top: 0;
         background: #111;
+        /* background-color: rgba(256,256,256,0.7); */
+          background-color: rgba(0,0,0,0.8);
         text-align: center;
         padding-top: 80px;
         transition: all 0.3s ease;
@@ -571,5 +574,25 @@ footer span a:hover{
     }
     .services{
       padding-top: 50px;
+    }
+    .about-content{
+      padding-top: 100px;
+    }
+    .about-content button{
+      font-size: 1.6vw;
+      outline: inherit;
+    }
+    .about-content button:active{
+      border: none;
+    }
+    .about-button{
+      padding: 5px 5px;
+      border: none;
+      color: #fff;
+      border-radius: 5px 5px 0px 0px;
+      background-color: red;
+    }
+    .about-container {
+      color: black;
     }
 }
