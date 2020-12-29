@@ -213,6 +213,9 @@ section .title::after{
 #myVideo {
 	width: 100%;
 }
+#myVideo1 {
+display: none;
+}
 .home .max-width{
     margin: auto 0 auto 30px;
 }
@@ -456,7 +459,7 @@ footer span a:hover{
       padding-top: 100px;
   }
     .max-width{
-        padding: 0 23px;
+        padding: 0 10px;
     }
     .home .home-content .text-2{
         font-size: 60px;
@@ -494,7 +497,6 @@ footer span a:hover{
 }
 @media (max-width: 500px) {
   .main-about{
-
     /* background-image: url("3.jpg");
     background-repeat: no-repeat;
     background-position: right;
@@ -527,26 +529,26 @@ footer span a:hover{
     color:  #FD0101;
     font-size: 1rem;
   }
-
   .main-about-img img{
-
     width:100%;
     padding: 00px;
   }
   .navbar{
-       background-color: #fff;
+
   }
   #myVideo {
-
-  margin-top:80px;
-  width: 150vw;
+    display: none;
+  }
+  #myVideo1 {
+  display: block;
+  width: 100vw;
+  height: 105vh;
   }
   .hvid {
     	width: 100%;
   }
-  #myVideo {
-  	width: 100%;
-  }
+
+
     .home .home-content .text-2{
         font-size: 50px;
     }
