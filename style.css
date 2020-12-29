@@ -246,7 +246,7 @@ body {
   justify-content: space-between;
 }
 .about-content h1{
-  color: red;
+  color: black;
   text-align: center;
 }
 .about-content button{
@@ -602,7 +602,6 @@ footer span a:hover{
     }
     .about-content{
       padding-top: 80px;
-
     }
     .about-content button{
       font-size: 1.7vw;
@@ -621,5 +620,9 @@ footer span a:hover{
     }
     .about-container {
       color: black;
+    }
+    .about-content h1{
+      color: black;
+      text-align: center;
     }
 }
