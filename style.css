@@ -245,6 +245,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
+.about-content h1{
+  color: red;
+  text-align: center;
+}
 .about-content button{
   font-size: 1vw;
   outline: inherit;
@@ -597,11 +601,11 @@ footer span a:hover{
       padding-top: 50px;
     }
     .about-content{
-      padding-top: 100px;
+      padding-top: 80px;
 
     }
     .about-content button{
-      font-size: 2vw;
+      font-size: 1.7vw;
       outline: inherit;
     }
     .about-content button:active{
@@ -613,7 +617,7 @@ footer span a:hover{
       color: #fff;
       border-radius: 5px 5px 0px 0px;
       background-color: red;
-      margin-left: 5px;
+      margin-right: 5px;
     }
     .about-container {
       color: black;
