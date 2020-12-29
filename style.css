@@ -241,6 +241,23 @@ body {
   width: 100%;
 
 }
+.about-content button{
+  font-size: 1vw;
+  outline: inherit;
+}
+.about-content button:active{
+  border: none;
+}
+.about-button{
+  padding: 5px 5px;
+  border: none;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+  background-color: red;
+}
+.about-container {
+  color: black;
+}
 .about .about-content .left{
     width: 45%;
 }
