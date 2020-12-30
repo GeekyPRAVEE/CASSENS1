@@ -200,12 +200,13 @@ font-weight: 600;
 text-align: center;
 vertical-align: middle;
 margin: 0;
- position: absolute;
+ position: fixed;
  padding: 10px;
  border-radius: 10px;
  top:80vh;
  left: 50%;
- background-color: rgba(0, 0, 0, 0.2);
+ z-index: -1;
+ background-color: rgba(0, 0, 0, 0.4);
  transform: translate(-50%, -50%);
 }
 .hvid {
@@ -564,6 +565,12 @@ footer span a:hover{
     }
 }
 @media (max-width: 500px) {
+  .home-content {
+    font-size: 1rem;
+    position: absolute;
+   transform: translate(-50%, -50%);
+   width: 90%;
+  }
   .main-about{
     /* background-image: url("3.jpg");
     background-repeat: no-repeat;
