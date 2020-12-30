@@ -6,7 +6,7 @@ $(document).ready(function(){
         }else{
             $('.navbar').removeClass("sticky");
         }
-        
+
         // scroll-up button show/hide script
         if(this.scrollY > 500){
             $('.scroll-up-btn').addClass("show");
@@ -31,21 +31,6 @@ $(document).ready(function(){
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
-    });
-
-    // typing text animation script
-    var typed = new Typed(".typing", {
-        strings: ["Mobile Developer"," UI Designer","Computer Vision Enthusiast"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
-    });
-
-    var typed = new Typed(".typing-2", {
-        strings: ["Mobile Developer"," UI Designer","Computer Vision Enthusiast"],
-        typeSpeed: 100,
-        backSpeed: 60,
-        loop: true
     });
 
     // owl carousel script
